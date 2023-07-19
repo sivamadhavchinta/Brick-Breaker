@@ -1,0 +1,18 @@
+Collectibles
+	1.L Long (Longer Paddle)
+	2.S Short (Shorter Paddle)
+	3.B Bullet (Paddle can shoot 3 bullets)
+	4.T Teleport (Paddle can pass through wall)
+	5.R Reverse (The functioning of A and D is reversed)
+	6.C Catch (Player can set direction of ball)(3 times)
+	7.M Multiple Balls
+	8.H Extra Life
+	
+Special Options(Available in start):(done)
+	1.F Faster Paddle *Activated using F
+	2.S Slower Ball *Activated using S
+
+
+Other Info:
+ 	1.Player can set direction at start
+	2.Lives:3

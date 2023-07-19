@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#game_area{
+    position: relative;
+    width:75vw;
+    height: 95vh;
+    float: left;
+    block-size: inline;
+}
+.scorecard{
+    position: absolute;
+    background-color: black;
+    right: 0;
+    width: 22vw;
+    height: 95vh;
+    color: white;
+    text-align: left;
+    font-size: 1vw;
+    padding-left: 01vw;
+    padding-top: 1vh;
+    
+}
+
+.instructions{
+    background-color:rgb(78, 250, 78) ;
+    color:black;
+    text-align: left;
+    font-size: 1vw;
+    font-family: cursive;
+    
+   
+    
+}
+
+.instructions:hover{
+   background-color: rgb(255, 251, 0);
+}
+
+#fast_paddle_button{
+    background-color: rgb(0, 225, 255);
+    width:10vw ;
+    height: 6vh;
+    font-size: medium;
+    font-family:cursive;
+    font-weight: 1000;
+}
+
+#fast_paddle_button:hover{
+    background-color: rgb(255, 251, 0);
+}
+
+#slow_ball_button{
+    background-color: rgb(0, 225, 255);
+    width:10vw ;
+    height: 6vh;
+    font-size: medium;
+    font-family:cursive;
+    font-weight: 1000;
+}
+
+#slow_ball_button:hover{
+    background-color: rgb(255, 251, 0);
+}
+
+#next_level{
+    background-color: rgb(252, 252, 252);
+    width:15vw ;
+    height: 10vh;
+    font-size: 200%;
+    font-weight:200000;
+}
+
+#play_again{
+    background-color: rgb(252, 252, 252);
+    width:15vw ;
+    height: 10vh;
+    font-size: 200%;
+    font-weight:200000;
+}
+#next_level:hover{
+    background-color: rgb(133, 133, 131);
+}
+#play_again:hover{
+    background-color: rgb(133, 133, 131);
+}
+#pause{
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    z-index: 1;
+    height: 3vw;
+    width:3vw;
+    left:0;
+    top:0;
+    font-size: 2vw;
+    background-color: chocolate;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="game_design.css">
+    <div id="game_area"><canvas id="GameCanvas" style="border-style:solid">Canvas Not Supported</canvas></div>
+    <div class="scorecard">
+
+        <a href="instructions.html" target="_blank">
+            <input type="submit" name="instructions" class=instructions value="Instructions">
+        </a>
+
+        <h1 id="lifeCounter">
+            Lives :
+        </h1>
+        <h1 id="scoreCounter">
+            Score :
+            <br>
+        </h1>
+
+        <h1 id='bulletCounter'>
+            Number of bullets :
+        </h1>
+        <h1 id='activeFeature'>
+
+        </h1>
+        <h1 id='activeCollectible'>
+
+        </h1>
+        <br>
+        <br>
+        <button id="fast_paddle_button">Fast Paddle</button>
+        <br>
+        <br>
+        <br>
+        <button id="slow_ball_button">Slow Ball</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button id="next_level" hidden>Next Level</button>
+        <button id="play_again" hidden src="/play.html">Play Again</button>
+    </div>
+    <button id="pause">||</button>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

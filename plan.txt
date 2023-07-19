@@ -1,0 +1,41 @@
+Two arrays:
+One for breakable bricks. Each element of array contains the object brick.
+Second for unbreakable bricks.
+
+Array of balls
+Array of collectibles available
+Array of falling_collectibles
+Active collectible
+numberOfLeft
+numberOfRight
+activeBullets
+activeCollectible
+var Caught
+
+(done)Class Vector: x,y
+fn Sum: for vector sum,product
+
+Class Brick: It has position of brick, dimensions, life of brick, color,
+render, => (bool)collisionWithBall(ball){reduce life by one, ballDirectionChange() if life is 0, (we can return0 ) }
+
+Class Ball: speed,position, dimension, color,
+render,updatePos, throwTheBall(), updateSpeedX(), reverseSpeedY(bool), slowSpeed(), normalSpeed(), caught()
+
+Class Throw_Direction: pos1(same as pos of ball),pos2(other end)
+render,moveLeft(), moveRight()
+
+Class Paddle: bool Bullet, size, position, color, catch_count, stepDistance()
+render(wrap), move(left(-1)/right(1), wrap),fastStepSpeed(), normalStepSpeed(), longLenght(), normalLength(), shortLength(), collisionWithBall(ball,Dir,n){check for catchCount,and call corr fn in ball}
+
+Class Bullet: speed,pos,color,dimension
+render(),updatePos()
+
+Class enclosed_Collectible: type, brickIndex
+(type)release()
+
+Class falling_Collectible: position,speed, type, dimension, color
+render(),reachBottom()
+
+Life lost when no ball left on screen.
+
+In the fn being updated, if(Brick[i].collision_with_ball(ball) is called){call collectibles fn.=> Then use type and make a falling_Collectible of that type}.
