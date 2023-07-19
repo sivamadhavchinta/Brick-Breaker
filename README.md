@@ -8,7 +8,7 @@ If the player loses at some level, by clicking on play again button, the player 
 
 ## Controls
 To move the paddle, the player can either use **"A" and "D"** keys or **up and down arrows**. The same keys can be used to change the direction in which the player wants to throw the ball if the ball is caught.
-When the ball is caught, the player can shoot the ball using **spacebar** or **up arrow key** or **""D**.
+When the ball is caught, the player can shoot the ball using **spacebar** or **up arrow key** or **"D"**.
 
 ## Special Options
 These options are the ones that can be used by the player by pressing key-board buttons or on-screen buttons. These can be used once every level. Their effect ends after 10 seconds. These include the following:
